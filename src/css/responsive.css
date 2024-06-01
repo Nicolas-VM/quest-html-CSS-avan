@@ -1,0 +1,41 @@
+@media(max-width:769px){
+  
+    .principal img{
+        width: 50%;
+    }
+}
+
+@media(max-width:999px){
+
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center center;
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; 
+    }
+    .principal .info h1{
+        text-align: center;
+    }
+    .principal .info p{
+        text-align: center;
+    }
+    .principal .info .button{
+        justify-content: center;
+    }
+
+    .rodape{
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
